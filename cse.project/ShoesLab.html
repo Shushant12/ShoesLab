@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Shoesweb.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>ShoesLab</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"><a href="main.html">Logout</a></i>
+                <i class="fa-solid fa-cart-shopping">cart</i>
+                <i onclick="nav()" class="fa-solid fa-bars">menu</i>
+            </div>
+        </nav>
+        <div class="slidershow middle">
+
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+                <div class="slide s1">
+                    <img src="./media/Redtape_1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./media/shoes_1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./media/Chalsey_boot.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./media/Long_boot.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./media/NIKE_sports.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+                <label for="r4" class="bar"></label>
+                <label for="r5" class="bar"></label>
+            </div>
+        </div>
+
+
+        <!-- main Page start from here -->
+
+        <div class="main">
+            <div class="text">
+                <h1>Stylish & Comfertable Shoes</h1>
+                <p>online Shoes delivery webpages offer a convenient and convenient way for customers to order and
+                    receive Shoes.</p>
+                <button>Explore More</button>
+            </div>
+            <img src="./media/burgerrr.jpg" alt="">
+        </div>
+
+
+
+        <!-- Shoes list -->
+
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <br>
+                        <h1>Our <span>Products</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="./media/JORDAN_shoes.jpg" alt="">
+                            <h2>₹ 14,239.00 </h2>
+                            <p>Jorden Highneck</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="card">
+                            <img src="./media/Nike_football.jpg" alt="please wait">
+                            <h2>₹ 21,645.00 </h2>
+                            <p>Nike Football</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="card">
+                            <img src="./media/NIKE_Shoes.jpg" alt="please wait">
+                            <h2>₹ 8,764.00</h2>
+                            <p>Nike Sneaker</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="card">
+                            <img src="./media/NIKE_sports.jpg" alt="">
+                            <h2>₹ 15,768.00</h2>
+                            <p>Nike Running Shoes</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="./media/Redtape_1.jpg" alt="">
+                            <h2>₹ 1,352.00</h2>
+                            <p>Redtape Sneaker</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="card">
+                            <img src="./media/shoes_1.jpg" alt="">
+                            <h2>₹ 1,976</h2>
+                            <p>Redtape Sneaker</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="card">
+                            <img src="./media/Chalsey_boot.jpg" alt="">
+                            <h2>₹ 2,280.00</h2>
+                            <p>Chalsy Boot</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="card">
+                            <img src="./media/Long_boot.jpg" alt="">
+                            <h2>₹ 3,268.00</h2>
+                            <p>Redtape Leather Boot</p>
+                            <Button>Buy It Now</Button>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="./media/adidas1.jpg" alt="">
+                            <h2>₹ 3,900.00</h2>
+                            <p>Osade Shoes</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+
+                        </div>
+                        <div class="card">
+                            <img src="./media/adidas2.jpg" alt="">
+                            <h2>₹ 17,999.00</h2>
+                            <p>Ultraboost 5x Shoes</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="card">
+                            <img src="./media/adidas3.jpg" alt="">
+                            <h2>₹ 2,200.00</h2>
+                            <p>Bravada Shoes</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="card">
+                            <img src="./media/adidas4.jpg" alt="">
+                            <h2>₹ 2,799.00</h2>
+                            <p>Adilette Slides</p>
+                            <button>Buy It Now</button>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Add Footer -->
+         
+        <div class="footer">
+            <div class="txt">
+                <h2>Help</h2>
+                <p>Order Status</p>
+                <p>Service</p>
+                <p>Delevery</p>
+                <p>Product</p>
+
+            </div>
+            <div class="txt">
+                <h2>About Company</h2>
+                <p>About Us</p>
+                <p>News</p>
+                <p>Careers</p>
+                <p>Store Located</p>
+
+            </div>
+            <div class="txt">
+                <h2>Customer Info</h2>
+                <p>Contact Us</p>
+                <p>Feedback</p>
+                <p>My Account</p>
+                <p>FAQs</p>
+
+            </div>
+            <div class="txt">
+                <h2>Policies</h2>
+                <p>Return & Replacement</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditionws</p>
+
+            </div>
+        </div>
+    </div>
+    <script src="./media/Foodweb.js"></script>
+</body>
+
+</html>
